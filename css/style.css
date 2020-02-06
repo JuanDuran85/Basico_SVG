@@ -12,7 +12,7 @@
     stroke-opacity: 0.8;
 }
 
-.lineas, .lineas2 {
+.lineas, .lineas2, .lineas3 {
     border: 1px solid black;
 }
 
@@ -21,3 +21,10 @@
     stroke: coral;
     stroke-width: 2;
 }
+
+.lineas3 circle {
+    stroke: coral;
+    stroke-width: 1;
+    fill: none;
+}
+
