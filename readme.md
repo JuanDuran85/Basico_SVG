@@ -48,3 +48,20 @@ SVG tiene algunos elementos de forma predefinidos que pueden ser utilizados por 
 * Polyline `<polyline>`
 * Polygon `<polygon>`
 * Path `<path>`
+
+Para realizar un rectagulo, se debe trabajar con las instrucciones:
+
+```html
+    <!--Realizando un rectangulo con SVG-->
+    <svg width="250" height="150">
+        <rect width="150" height="100" class="rectangulo"></rect>
+    </svg>
+```
+
+Explicación del código:
+
+* Los atributos ancho y alto del elemento `<rect>` definen el alto y el ancho del rectángulo.
+* El atributo de estilo se usa para definir propiedades CSS para el rectángulo.
+* La propiedad de relleno CSS define el color de relleno del rectángulo.
+* La propiedad de ancho de trazo CSS define el ancho del borde del rectángulo.
+* La propiedad de trazo CSS define el color del borde del rectángulo.
