@@ -38,3 +38,13 @@ Por lo tanto, la descripción del ejemplo anterior seria:
         <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow"></circle>
     </svg>
 ```
+
+SVG tiene algunos elementos de forma predefinidos que pueden ser utilizados por los desarrolladores:
+
+* Rectangle `<rect>`
+* Circle `<circle>`
+* Ellipse `<ellipse>`
+* Line `<line>`
+* Polyline `<polyline>`
+* Polygon `<polygon>`
+* Path `<path>`
