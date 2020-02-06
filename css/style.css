@@ -3,3 +3,11 @@
     stroke-width: 3;
     stroke: rgb(26, 66, 197);
 }
+
+.cuadrado {
+    fill: darkgoldenrod;
+    stroke: plum;
+    stroke-width: 7;
+    fill-opacity: 0.2;
+    stroke-opacity: 0.8;
+}
