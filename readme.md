@@ -67,3 +67,18 @@ Explicación del código:
 * La propiedad de trazo CSS define el color del borde del rectángulo.
 
 Para mayor informacion relacionada a todos los atributos y propiedades sobre SVG, visitar: [SVG cheat sheet](https://learn-the-web.algonquindesign.ca/topics/svg-cheat-sheet/).
+
+Otro de los elementos o etiquetas mas utilizadas para SVG es el elemento `<path>` "ruta", el cual, se usa para definir una ruta. Ahora bien, los siguientes comandos están disponibles para datos de ruta:
+
+* M,m = moveto.
+* L,l = lineto.
+* H,h = línea horizontal a.
+* V,v = línea vertical a.
+* C,c = curvato.
+* S,s = curva suave.
+* Q,q = curva de Bézier cuadrática.
+* T,t = curva de Bézier cuadrática lisa.
+* A,a = arco elíptico.
+* Z,z = camino cerrado.
+
+Nota importante: Todos los comandos anteriores también se pueden expresar con letras más bajas. Las letras mayúsculas significan absolutamente posicionadas, las minúsculas significan relativamente posicionadas.
