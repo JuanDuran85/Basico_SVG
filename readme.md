@@ -65,3 +65,5 @@ Explicación del código:
 * La propiedad de relleno CSS define el color de relleno del rectángulo.
 * La propiedad de ancho de trazo CSS define el ancho del borde del rectángulo.
 * La propiedad de trazo CSS define el color del borde del rectángulo.
+
+Para mayor informacion relacionada a todos los atributos y propiedades sobre SVG, visitar: [SVG cheat sheet](https://learn-the-web.algonquindesign.ca/topics/svg-cheat-sheet/).
