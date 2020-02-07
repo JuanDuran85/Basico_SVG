@@ -91,4 +91,3 @@ Existen funciones o propiedades importantes que permiten modificar la figura cre
 * Fill: permite rellenar la figura con un color establecido.
 * Stroke: asigna el color de la linea del contorno de la figura.
 * Stroke-width: permite modificar el grosor de la linea de contorno de la figura.
-

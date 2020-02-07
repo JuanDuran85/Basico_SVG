@@ -10,6 +10,7 @@
     stroke-width: 7;
     fill-opacity: 0.2;
     stroke-opacity: 0.8;
+    transition: transform 0.7s;
 }
 
 .lineas, .lineas2, .lineas3 {
@@ -33,3 +34,10 @@
     fill: none;
 }
 
+.cuadrado:hover {
+    stroke: rgb(24, 209, 40);
+    fill: blue;
+    stroke-width: 3;
+    transform: translate(50px,30px);
+    transform: rotate(30deg);
+}
