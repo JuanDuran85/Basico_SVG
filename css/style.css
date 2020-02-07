@@ -2,6 +2,11 @@
     fill: rgba(74, 197, 26);
     stroke-width: 3;
     stroke: rgb(26, 66, 197);
+    transition: transform 0.9s;
+}
+
+.rectangulo:hover {
+    transform: rotate(30deg);
 }
 
 .cuadrado {
@@ -39,5 +44,4 @@
     fill: blue;
     stroke-width: 3;
     transform: translate(50px,30px);
-    transform: rotate(30deg);
 }
