@@ -1,0 +1,11 @@
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <defs>undefined</defs>
+ <g class="layer">
+  <title>Layer 1</title>
+  <ellipse cx="320" cy="241.9" fill="#ff0000" id="svg_3" rx="85.5" ry="80.49999" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0"/>
+  <ellipse cx="320" cy="242.39999" fill="#ffffff" id="svg_5" rx="67.5" ry="62" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0"/>
+  <rect fill="#0800ff" height="42" id="svg_2" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" width="187.99999" x="227" y="218.4"/>
+  <text fill="#ffffff" font-family="serif" font-size="2" id="svg_1" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" style="cursor: move;" text-anchor="middle" transform="matrix(11.4407, 0, 0, 5.98162, -2553.59, -981.574)" x="251.2168" xml:space="preserve" y="204.8493">UNDERGROUND</text>
+ </g>
+</svg>
