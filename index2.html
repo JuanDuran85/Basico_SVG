@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>SVG</title>
+</head>
+<body>
+    <!--Realizando un circulo con SVG-->
+    <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow"></circle>
+    </svg>
+
+    <!--Realizando un rectangulo con SVG-->
+    <svg width="250" height="150">
+        <rect width="150" height="100" class="rectangulo"></rect>
+    </svg>
+
+    <!--Realizando un cuadrado con SVG-->
+    <svg width="800" height="200">
+        <rect x="10" y="10" width="150" height="150" class="cuadrado"></rect>
+    </svg>
+
+    <!-- Agregando una imagen SVG con la etiqueta img-->
+    <img src="img/dibujo.svg" alt="svg">
+
+    <!--Cuadrado con lineas en caja con los atributos directos en el HTML-->
+    <svg class="lineas" width="320" height="320" viewBox="-10 -10 320 320">
+        <line x1="0" y1="60" x2="300" y2="60"/>
+        <line x1="0" y1="61" x2="300" y2="61"/>
+        <line x1="0" y1="62" x2="300" y2="62"/>
+        <line x1="0" y1="63" x2="300" y2="63"/>
+        <line x1="0" y1="64" x2="300" y2="64"/>
+        <line x1="1" y1="65" x2="301" y2="65"/>
+        <line x1="2" y1="0" x2="302" y2="300"/>
+        <line x1="3" y1="0" x2="303" y2="300"/>
+        <line x1="4" y1="0" x2="304" y2="300"/>
+        <line x1="5" y1="0" x2="305" y2="300"/>
+        <line x1="6" y1="0" x2="306" y2="300"/>
+    </svg>
+
+    <!--Cuadrado con lineas en caja con los atributos en el CSS-->
+    <svg  class="lineas2" class="lineas2" width="320" height="320" viewBox="-160 -160 320 320">
+        <line x1="75" y1="75" x2="300" y2="0"/>
+        <line x1="80" y1="80" x2="300" y2="0"/>
+        <line x1="85" y1="85" x2="300" y2="0"/>
+        <line x1="90" y1="90" x2="300" y2="0"/>
+        <line x1="95" y1="95" x2="300" y2="0"/>
+        <line x1="100" y1="100" x2="300" y2="0"/>
+        <line x1="105" y1="105" x2="300" y2="0"/>
+        <line x1="110" y1="110" x2="300" y2="0"/>
+        <line x1="115" y1="115" x2="300" y2="0"/>
+        <line x1="120" y1="120" x2="300" y2="0"/>
+    </svg>
+
+    <svg class="lineas3" width="320" height="320" viewBox="-10 -10 360 360">
+        <circle cx="150" cy="150" r="60"/>
+        <circle cx="150" cy="150" r="90"/>
+        <circle cx="150" cy="150" r="120"/>
+        <circle cx="150" cy="150" r="150"/>
+        <circle cx="150" cy="150" r="180"/>
+        <circle cx="150" cy="150" r="210"/>
+        <circle cx="150" cy="150" r="240"/>
+        <circle cx="150" cy="150" r="270"/>
+        <circle cx="150" cy="150" r="300"/>
+        <circle cx="150" cy="150" r="330"/>
+        <circle cx="150" cy="150" r="360"/>
+        <circle cx="150" cy="150" r="390"/>
+        <circle cx="150" cy="150" r="420"/>
+        <circle cx="150" cy="150" r="450"/>
+    </svg>
+
+    <svg width="700px" height="300px" class="lineas">
+        <rect x="190" y="50" width="300" height="70" fill="blue" stroke="#bd8347" stroke­width="10"></rect>
+        <line x1="190" y1="40" x2="490" y2="40" stroke="Crimson"></line>
+        <line x1="190px" y1="45" x2="490" y2="45" stroke="DarkGoldenRod"></line>
+        <circle cx="0" cy="0" r="50" fill="yellow" stroke="yellow" strokewidth="4"></circle>
+         <ellipse cx="130" cy="60" rx="50" ry="50" fill="red" stroke="#bd8347" strokewidth="10"></ellipse>
+        <polygon points="70,40, 150,120 0,200" fill="yellow" stroke="#bdc3c7" strokewidth="4"></polygon>
+        <polyline points="70,40 80,70 100,70 105,95 130,100 125,115 150,120" fill="none" stroke="#bdc3c7" strokewith="10" ></polyline>
+        <text x="190px" y="150px" font-size="38px">Texto agregado con etiqueta text</text>
+        <text x="190px" y="180px" font-size="30px">Texto agregado con etiqueta text</text>
+      </svg>
+</body>
+</html>

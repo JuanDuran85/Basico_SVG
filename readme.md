@@ -66,7 +66,7 @@ Explicación del código:
 * La propiedad de ancho de trazo CSS define el ancho del borde del rectángulo.
 * La propiedad de trazo CSS define el color del borde del rectángulo.
 
-Para mayor informacion relacionada a todos los atributos y propiedades sobre SVG, visitar: [SVG cheat sheet](https://learn-the-web.algonquindesign.ca/topics/svg-cheat-sheet/).
+Para mayor informacion relacionada a todos los atributos y propiedades sobre SVG, visitar: [SVG cheat sheet](https://learn-the-web.algonquindesign.ca/topics/svg-cheat-sheet/). Y tambien es muy recomendada la página web de: [Desarrollo Libre](https://www.desarrollolibre.net/blog/html/dibujando-nuestro-propios-svg-en-html-parte-1#.Xj1aHCN-HIU).
 
 Otro de los elementos o etiquetas mas utilizadas para SVG es el elemento `<path>` "ruta", el cual, se usa para definir una ruta. Ahora bien, los siguientes comandos están disponibles para datos de ruta:
 
