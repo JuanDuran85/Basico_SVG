@@ -66,7 +66,7 @@ Explicación del código:
 * La propiedad de ancho de trazo CSS define el ancho del borde del rectángulo.
 * La propiedad de trazo CSS define el color del borde del rectángulo.
 
-Para mayor informacion relacionada a todos los atributos y propiedades sobre SVG, visitar: [SVG cheat sheet](https://learn-the-web.algonquindesign.ca/topics/svg-cheat-sheet/). Y tambien es muy recomendada la página web de: [Desarrollo Libre](https://www.desarrollolibre.net/blog/html/dibujando-nuestro-propios-svg-en-html-parte-1#.Xj1aHCN-HIU).
+Para mayor informacion relacionada a todos los atributos y propiedades sobre SVG, visitar: [SVG cheat sheet](https://learn-the-web.algonquindesign.ca/topics/svg-cheat-sheet/). Y tambien son muy recomendadas las páginas web de: [Desarrollo Libre](https://www.desarrollolibre.net/blog/html/dibujando-nuestro-propios-svg-en-html-parte-1#.Xj1aHCN-HIU). [Convalencia Web](https://covalenciawebs.com/crear-dibujos-vectoriales-directamente-en-la-web-svg-en-html/).
 
 Otro de los elementos o etiquetas mas utilizadas para SVG es el elemento `<path>` "ruta", el cual, se usa para definir una ruta. Ahora bien, los siguientes comandos están disponibles para datos de ruta:
 
@@ -82,3 +82,12 @@ Otro de los elementos o etiquetas mas utilizadas para SVG es el elemento `<path>
 * Z,z = camino cerrado.
 
 Nota importante: Todos los comandos anteriores también se pueden expresar con letras más bajas. Las letras mayúsculas significan absolutamente posicionadas, las minúsculas significan relativamente posicionadas.
+
+Existen funciones o propiedades importantes que permiten modificar la figura creada en SVG por cualquiera de los elementos predefinidos. Estas propiedades son: el grosor de línea, el tipo de línea o la forma de los extremos:
+
+* Stroke-width: Grosor de la línea.
+* Stroke-dasharray: Líneas discontínuas. Requiere 2 valores, para la longitud de cada raya y la separación en ellas (ejemplo: “5,5”).
+* Stroke-linecap: forma de los extremos (butt=recto, round=redondo, square=cuadrado).
+* Fill: permite rellenar la figura con un color establecido.
+* Stroke: asigna el color de la linea del contorno de la figura.
+* Stroke-width: permite modificar el grosor de la linea de contorno de la figura.
