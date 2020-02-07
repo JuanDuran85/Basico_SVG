@@ -16,6 +16,11 @@
     border: 1px solid black;
 }
 
+.lineas line {
+    stroke-width: 1;
+    stroke: red;
+}
+
 .lineas2 line {
     border: 1px solid black;
     stroke: coral;
