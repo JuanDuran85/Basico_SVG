@@ -52,7 +52,20 @@ Listado de atributos compatibles:
    * Tercer valor: ancho de la porción del plano que muestra la imagen.
    * Cuarto valor: alto de la porción del plano que muestra la imagen.
 
-6. importante: Cualquiera de los elementos que sean incluídos dentro de `<defs>` no sera visible a la hora de reproducir el SVG, para que estos elementos sean visibles se deberá usar la etiqueta `<use>`.  
+6. Otro de los elementos o etiquetas mas utilizadas para SVG es el elemento `<path>` "ruta", el cual, se usa para definir una ruta. Ahora bien, los siguientes comandos están disponibles para datos de ruta:
+
+   * M,m = moveto.
+   * L,l = lineto.
+   * H,h = línea horizontal a.
+   * V,v = línea vertical a.
+   * C,c = curvato.
+   * S,s = curva suave.
+   * Q,q = curva de Bézier cuadrática.
+   * T,t = curva de Bézier cuadrática lisa.
+   * A,a = arco elíptico.
+   * Z,z = camino cerrado.
+
+7. Importante: Todos los comandos anteriores también se pueden expresar con letras más bajas. Las letras mayúsculas significan absolutamente posicionadas, las minúsculas significan relativamente posicionadas. Por otra parte, cualquiera de los elementos que sean incluídos dentro de `<defs>` no sera visible a la hora de reproducir el SVG, para que estos elementos sean visibles se deberá usar la etiqueta `<use>`.  
     
 ## Explicación de un código SVG para un circulo
 
@@ -83,7 +96,6 @@ SVG tiene algunos elementos de forma predefinidos que pueden ser utilizados por 
 * Line `<line>`
 * Polyline `<polyline>`
 * Polygon `<polygon>`
-* Path `<path>`
 
 Para realizar un rectagulo, se debe trabajar con las instrucciones:
 
@@ -101,21 +113,6 @@ Explicación del código:
 * La propiedad de relleno CSS define el color de relleno del rectángulo.
 * La propiedad de ancho de trazo CSS define el ancho del borde del rectángulo.
 * La propiedad de trazo CSS define el color del borde del rectángulo.
-
-Otro de los elementos o etiquetas mas utilizadas para SVG es el elemento `<path>` "ruta", el cual, se usa para definir una ruta. Ahora bien, los siguientes comandos están disponibles para datos de ruta:
-
-* M,m = moveto.
-* L,l = lineto.
-* H,h = línea horizontal a.
-* V,v = línea vertical a.
-* C,c = curvato.
-* S,s = curva suave.
-* Q,q = curva de Bézier cuadrática.
-* T,t = curva de Bézier cuadrática lisa.
-* A,a = arco elíptico.
-* Z,z = camino cerrado.
-
-Nota importante: Todos los comandos anteriores también se pueden expresar con letras más bajas. Las letras mayúsculas significan absolutamente posicionadas, las minúsculas significan relativamente posicionadas.
 
 Existen funciones o propiedades importantes que permiten modificar la figura creada en SVG por cualquiera de los elementos predefinidos. Estas propiedades son: el grosor de línea, el tipo de línea o la forma de los extremos:
 

@@ -7,6 +7,11 @@
     <title>SVG patte 3</title>
 </head>
 <body>
+    <!--El atributo principal propio de <path> es d, que se usa para definir una lista de puntos y/o curvas entre ellos -->
+    <svg width="140" height="110" viewBox="0 0 140 110">
+        <path d="M 10,70 L 30,40 L 70,100 L 130,10" fill="none" stroke="RoyalBlue" stroke-width="3" />
+    </svg>
+    
     <!-- En el siguiente ejemplo se ve todo el círculo porque la zona visible definida por viewBox empieza arriba a la izquierda en el punto (-100, -100) y tiene un tamaño de 200 x 200. El tamaño de la imagen es también de 200 x 200.-->
     <svg width="200" height="200" viewBox="-100 -100 200 200" class="circulo_linea">
         <circle cx="0" cy="0" r="100" fill="none" stroke="red" stroke-width="1" />
