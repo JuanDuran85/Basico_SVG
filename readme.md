@@ -18,6 +18,34 @@ Las ventajas de usar SVG sobre otros formatos de imagen (como JPEG y GIF) son:
 * Los archivos SVG son XML puro.
 * En HTML5, puede incrustar elementos SVG directamente en sus páginas HTML.
 
+## Sintaxis y atributos de la etiqueta SVG
+La sintaxis básica es sencilla, tan solo debemos poner la etiqueta y definir un tamaño inicial. En dicha etiqueta podemos poner los atributos y etiquetas que necesitemos para realizar nuestro gráfico vectorial.
+
+Listado de etiquetas compatibles:
+
+1. Animación: animate, animateColor, animateMotion, animateTransform y set.
+2. Descriptivas: desc, metadata y title.
+3. Formas: circle, ellipse, line, path, polygon, polyline y rect.
+4. Estructura: defs, g, svg, symbol y use.
+5. Degradados: linearGradient, radialGradient.
+6. Otras: a, altGlyphDef, clipPath, color-profile, cursor, filter, font, font-face, foreignObject, image, marker, mask, pattern, script, style, switch, text y view.
+
+Listado de atributos compatibles:
+
+1. Condicionales: requiredFeatures, requiredExtensions y systemLanguage.
+2. Core: id, xml:base, xml:lang y xml:space.
+3. Eventos: onunload, onabort, onerror, onresize, onscroll y onzoom.
+4. Eventos gráficos: onfocusin, onfocusout, onactivate, onclick, onmousedown, onmouseup, onmouseover, onmousemove, onmouseout y onload.
+5. Presentación: alignment-baseline, baseline-shift, clip, clip-path, clip-rule, color, color-interpolation, color-interpolation-filters, color-profile, color-rendering, cursor, direction, display, dominant-baseline, enable-background, fill, fill-opacity, fill-rule, filter, flood-color, flood-opacity, font-family, font-size, font-size-adjust, font-stretch, font-style, font-variant, font-weight, glyph-orientation-horizontal, glyph-orientation-vertical, image-rendering, kerning, letter-spacing, lighting-color, marker-end, marker-mid, marker-start, mask, opacity, overflow, pointer-events, shape-rendering, stop-color, stop-opacity, stroke, stroke-dasharray, stroke-dashoffset, stroke-linecap, stroke-linejoin, stroke-miterlimit, stroke-opacity, stroke-width, text-anchor, text-decoration, text-rendering, unicode-bidi, visibility, word-spacing y writing-mode.
+6. Otros: class, style, externalResourcesRequired, x, y, width, height, viewBox, preserveAspectRatio, zoomAndPan, version, baseProfile, contentScriptType, contentStyleType, x, y, width, height, version y baseProfile.
+
+## Explicando algunas etiquetas especiales para SVG
+
+1. Etiqueta `<g>`: El elemento g es un contenedor usado para agrupar objetos. Las transformaciones aplicadas al elemento g son realizadas sobre todos los elementos hijos del mismo. Los atributos aplicados son heredados por los elementos hijos. Además, puede ser usado para definir objetos complejos que pueden luego ser referenciados con el elemento `<use>`.
+2. Etiqueta `<use>`: El elemento use toma los nodos que están dentro del documento SVG y duplica el contenido donde éste esté siendo utilizado. El efecto es el mismo, como si éstos nodos hubiesen sido profundamente clonados en un elemento DOM no expuesto, y luego pegados donde se encuentra el elemeto use.
+3. 
+
+
 ## Explicación de un código SVG para un circulo
 
 * Una imagen SVG comienza con un elemento `<svg>`
