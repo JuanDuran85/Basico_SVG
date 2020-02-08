@@ -39,13 +39,6 @@ Listado de atributos compatibles:
 5. Presentación: alignment-baseline, baseline-shift, clip, clip-path, clip-rule, color, color-interpolation, color-interpolation-filters, color-profile, color-rendering, cursor, direction, display, dominant-baseline, enable-background, fill, fill-opacity, fill-rule, filter, flood-color, flood-opacity, font-family, font-size, font-size-adjust, font-stretch, font-style, font-variant, font-weight, glyph-orientation-horizontal, glyph-orientation-vertical, image-rendering, kerning, letter-spacing, lighting-color, marker-end, marker-mid, marker-start, mask, opacity, overflow, pointer-events, shape-rendering, stop-color, stop-opacity, stroke, stroke-dasharray, stroke-dashoffset, stroke-linecap, stroke-linejoin, stroke-miterlimit, stroke-opacity, stroke-width, text-anchor, text-decoration, text-rendering, unicode-bidi, visibility, word-spacing y writing-mode.
 6. Otros: class, style, externalResourcesRequired, x, y, width, height, viewBox, preserveAspectRatio, zoomAndPan, version, baseProfile, contentScriptType, contentStyleType, x, y, width, height, version y baseProfile.
 
-## Explicando algunas etiquetas especiales para SVG
-
-1. Etiqueta `<g>`: El elemento g es un contenedor usado para agrupar objetos. Las transformaciones aplicadas al elemento g son realizadas sobre todos los elementos hijos del mismo. Los atributos aplicados son heredados por los elementos hijos. Además, puede ser usado para definir objetos complejos que pueden luego ser referenciados con el elemento `<use>`.
-2. Etiqueta `<use>`: El elemento use toma los nodos que están dentro del documento SVG y duplica el contenido donde éste esté siendo utilizado. El efecto es el mismo, como si éstos nodos hubiesen sido profundamente clonados en un elemento DOM no expuesto, y luego pegados donde se encuentra el elemeto use.
-3. 
-
-
 ## Explicación de un código SVG para un circulo
 
 * Una imagen SVG comienza con un elemento `<svg>`

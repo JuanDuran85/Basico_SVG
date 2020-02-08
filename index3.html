@@ -16,5 +16,45 @@
             <circle cx="70" cy="25" r="15" />
         </g>
     </svg>
+
+    <svg width="200px" height="400px">
+        <rect x="0" y="0" width="150" height="350"
+              fill="black" stroke="gray" stroke-width="2" />	
+        <g stroke="black" stroke-width="2" stroke="gray">
+            <circle r="40" cx="75" cy="80" fill="red" />
+            <circle r="40" cx="75" cy="175" fill="yellow" />
+            <circle r="40" cx="75" cy="275" fill="green" />
+        </g>		
+    </svg>
+
+    <!--Ahora creamos el mismo semafaro pero usando las estiquetas g y use para no repetir varias veces las mismas-->
+    <svg width="200px" height="400px">
+        <defs>
+            <circle id="light" cx="75" r="40" />
+        </defs>
+        <rect x="0" y="0" width="150" height="350" fill="black" stroke="gray" stroke-width="2" />
+        <g stroke="black" stroke-width="2">
+            <use xlink:href="#light" y="80" fill="red" />
+            <use xlink:href="#light" y="175" fill="yellow" />
+            <use xlink:href="#light" y="275" fill="green" />
+        </g>
+    </svg>
+
+    <!-- Usando las etiquetas defs, g y use dentro de una etiqueta svg-->
+    <svg width="100%" height="100%" viewBox="10 10 1 1">
+        <defs>
+          <g id="Port">
+            <circle style="fill: inherit" r="20"/>
+          </g>
+        </defs>
+        
+        <!-- La etiqueta use, clona el contenido de una etiqueta g mediante el atributo xlink:href y el nombre del id-->
+        <text y="15">Negro</text>
+        <use x="65" y="10" xlink:href="#Port" />
+        <text y="55">Rojo</text>
+        <use x="65" y="50" xlink:href="#Port" class="classA"/>
+        <text y="100">Azul</text>
+        <use x="65" y="90" xlink:href="#Port" style="fill:blue"/>
+    </svg>
 </body>
 </html>

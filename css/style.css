@@ -45,3 +45,7 @@
     stroke-width: 3;
     transform: translate(50px,30px);
 }
+
+.classA { 
+    fill: red;
+}
