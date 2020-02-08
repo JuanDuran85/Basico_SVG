@@ -7,6 +7,13 @@
     <title>SVG patte 3</title>
 </head>
 <body>
+    <!-- En el siguiente ejemplo se ve todo el círculo porque la zona visible definida por viewBox empieza arriba a la izquierda en el punto (-100, -100) y tiene un tamaño de 200 x 200. El tamaño de la imagen es también de 200 x 200.-->
+    <svg width="200" height="200" viewBox="-100 -100 200 200" class="circulo_linea">
+        <circle cx="0" cy="0" r="100" fill="none" stroke="red" stroke-width="1" />
+        <line x1="-200" y1="0" x2="200" y2="0" stroke="black" stroke-width="1" />
+        <line x1="0" y1="-200" x2="0" y2="200" stroke="black" stroke-width="1" />
+    </svg>
+
     <!--Usando la etiqueta g para agrupar contenido dentro de la etiqueta svg-->
     <svg width="100%" height="100%" viewBox="0 0 95 50">
         <g stroke="green" fill="white" stroke-width="5">

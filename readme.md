@@ -41,9 +41,19 @@ Listado de atributos compatibles:
 
 ## Explicando algunas etiquetas, atributos y propiedas importantes para las etiquetas SVG
 
-1. 
+1. Elemento `<g>`: es un contenedor usado para agrupar objetos. Las transformaciones aplicadas al elemento g son realizadas sobre todos los elementos hijos del mismo. Los atributos aplicados son heredados por los elementos hijos. Además, puede ser usado para definir objetos complejos que pueden luego ser referenciados con el elemento `<use>`. La etiqueta g es bastante útil para agrupar formas geométricas que tienen atributos en común, sin embargo, su debilidad radica en el hecho de no poder colocar todos los atributos comunes en el elemento.
+2. Elemento `<use>`: El elemento use toma los nodos que están dentro del documento SVG y duplica el contenido donde éste esté siendo utilizado. El efecto es el mismo, como si éstos nodos hubiesen sido profundamente clonados en un elemento DOM no expuesto, y luego pegados donde se encuentra el elemeto use.
+3. Elemento `<defs>`: permite colocar todos los atributos comunes en el elemento (a diferencia de la etiqueta `<g>`) y con ayuda de la etiqueta use se puede definir una figura clave (mediante la etiqueta `<defs>`) con todos sus atributos y luego se puede usar y replicar esta definición tantas veces como se necesite mediante la etiqueta `<use>`.
+4. El atributo "xlink:href " se emplea para identificar otro elemento en el documento mediante el marcado "#" que permite seguir a un elemento mediante el atributo id.
+5. El atributo viewBox: establece la porción del plano SVG que muestra la imagen. Este atributo se establece con cuatro valores:
 
+   * Primer valor: abcisa (X) de la esquina superior izquierda de la porción del plano que muestra la imagen.
+   * Segundo valor: ordenada (Y) de la esquina superior izquierda de la porción del plano que muestra la imagen.
+   * Tercer valor: ancho de la porción del plano que muestra la imagen.
+   * Cuarto valor: alto de la porción del plano que muestra la imagen.
 
+6. importante: Cualquiera de los elementos que sean incluídos dentro de `<defs>` no sera visible a la hora de reproducir el SVG, para que estos elementos sean visibles se deberá usar la etiqueta `<use>`.  
+    
 ## Explicación de un código SVG para un circulo
 
 * Una imagen SVG comienza con un elemento `<svg>`
@@ -116,5 +126,8 @@ Existen funciones o propiedades importantes que permiten modificar la figura cre
 * Stroke: asigna el color de la linea del contorno de la figura.
 * Stroke-width: permite modificar el grosor de la linea de contorno de la figura.
 
-Para mayor informacion relacionada a todos los atributos y propiedades sobre SVG, visitar: [SVG cheat sheet](https://learn-the-web.algonquindesign.ca/topics/svg-cheat-sheet/). Y tambien son muy recomendadas las páginas web de: [Desarrollo Libre](https://www.desarrollolibre.net/blog/html/dibujando-nuestro-propios-svg-en-html-parte-1#.Xj1aHCN-HIU). [Convalencia Web](https://covalenciawebs.com/crear-dibujos-vectoriales-directamente-en-la-web-svg-en-html/). [SVG Explicaciones] (https://www.mclibre.org/consultar/htmlcss/html/html-svg.html).
-
+Para mayor información relacionada a todos los atributos y propiedades sobre SVG, visitar: 
+[SVG cheat sheet](https://learn-the-web.algonquindesign.ca/topics/svg-cheat-sheet/) 
+[Desarrollo Libre](https://www.desarrollolibre.net/blog/html/dibujando-nuestro-propios-svg-en-html-parte-1#.Xj1aHCN-HIU). 
+[Convalencia Web](https://covalenciawebs.com/crear-dibujos-vectoriales-directamente-en-la-web-svg-en-html/). 
+[SVG Explicaciones](https://www.mclibre.org/consultar/htmlcss/html/html-svg.html).
