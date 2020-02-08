@@ -39,6 +39,11 @@ Listado de atributos compatibles:
 5. Presentación: alignment-baseline, baseline-shift, clip, clip-path, clip-rule, color, color-interpolation, color-interpolation-filters, color-profile, color-rendering, cursor, direction, display, dominant-baseline, enable-background, fill, fill-opacity, fill-rule, filter, flood-color, flood-opacity, font-family, font-size, font-size-adjust, font-stretch, font-style, font-variant, font-weight, glyph-orientation-horizontal, glyph-orientation-vertical, image-rendering, kerning, letter-spacing, lighting-color, marker-end, marker-mid, marker-start, mask, opacity, overflow, pointer-events, shape-rendering, stop-color, stop-opacity, stroke, stroke-dasharray, stroke-dashoffset, stroke-linecap, stroke-linejoin, stroke-miterlimit, stroke-opacity, stroke-width, text-anchor, text-decoration, text-rendering, unicode-bidi, visibility, word-spacing y writing-mode.
 6. Otros: class, style, externalResourcesRequired, x, y, width, height, viewBox, preserveAspectRatio, zoomAndPan, version, baseProfile, contentScriptType, contentStyleType, x, y, width, height, version y baseProfile.
 
+## Explicando algunas etiquetas, atributos y propiedas importantes para las etiquetas SVG
+
+1. 
+
+
 ## Explicación de un código SVG para un circulo
 
 * Una imagen SVG comienza con un elemento `<svg>`
@@ -87,8 +92,6 @@ Explicación del código:
 * La propiedad de ancho de trazo CSS define el ancho del borde del rectángulo.
 * La propiedad de trazo CSS define el color del borde del rectángulo.
 
-Para mayor informacion relacionada a todos los atributos y propiedades sobre SVG, visitar: [SVG cheat sheet](https://learn-the-web.algonquindesign.ca/topics/svg-cheat-sheet/). Y tambien son muy recomendadas las páginas web de: [Desarrollo Libre](https://www.desarrollolibre.net/blog/html/dibujando-nuestro-propios-svg-en-html-parte-1#.Xj1aHCN-HIU). [Convalencia Web](https://covalenciawebs.com/crear-dibujos-vectoriales-directamente-en-la-web-svg-en-html/).
-
 Otro de los elementos o etiquetas mas utilizadas para SVG es el elemento `<path>` "ruta", el cual, se usa para definir una ruta. Ahora bien, los siguientes comandos están disponibles para datos de ruta:
 
 * M,m = moveto.
@@ -112,4 +115,6 @@ Existen funciones o propiedades importantes que permiten modificar la figura cre
 * Fill: permite rellenar la figura con un color establecido.
 * Stroke: asigna el color de la linea del contorno de la figura.
 * Stroke-width: permite modificar el grosor de la linea de contorno de la figura.
+
+Para mayor informacion relacionada a todos los atributos y propiedades sobre SVG, visitar: [SVG cheat sheet](https://learn-the-web.algonquindesign.ca/topics/svg-cheat-sheet/). Y tambien son muy recomendadas las páginas web de: [Desarrollo Libre](https://www.desarrollolibre.net/blog/html/dibujando-nuestro-propios-svg-en-html-parte-1#.Xj1aHCN-HIU). [Convalencia Web](https://covalenciawebs.com/crear-dibujos-vectoriales-directamente-en-la-web-svg-en-html/). [SVG Explicaciones] (https://www.mclibre.org/consultar/htmlcss/html/html-svg.html).
 
